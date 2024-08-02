@@ -24,7 +24,8 @@ namespace Transferencia
             string username = Console.ReadLine();
             Console.Write("Digite su contraseña: ");
             string password = Console.ReadLine();
-            return username == "admin" && password == "1234";
+            return username == "ANGEL" && password == "Angel2314#0222";
+            Console.ReadKey();
         }
 
         static void Transfer()
@@ -34,6 +35,7 @@ namespace Transferencia
             Console.Write("Ingrese el número de cuenta destinatario: ");
             string accountNumber = Console.ReadLine();
             Console.WriteLine($"Has transferido {amount:C} a la cuenta {accountNumber}.");
+            Console.ReadKey();
         }
     }
 }
